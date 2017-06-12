@@ -1,0 +1,63 @@
+# Haskell #
+###########
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+.stack-work/
+
+# Server cfg #
+##############
+
+students-big-brother-server/sbb-config.json
+
+# JS #
+######
+node_modules
+npm-debug.log
+.tmp
+.idea
+public
+compiled
+.swp
+frontend/dist
+
+# EMBER.JS #
+############
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+client_configs
+
+# dependencies
+node_modules
+bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+tmp/
+
+# misc #
+########
+cfg/
+screenshots/
+aux/
+.zip
+out/
